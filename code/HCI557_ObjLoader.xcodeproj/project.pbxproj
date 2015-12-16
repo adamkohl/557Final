@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D7FC8D5A70F24AA9A2F995CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEB83F2F322B4BB089B3C203 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				54D9ABAB888A4806A5D8ABBE /* CMake Rules */,
+			);
+			dependencies = (
+				B6006468E44C44E0ACAC6B52 /* PBXTargetDependency */,
+				AA7B109A13AB42E0AE563656 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EEC63765F87E44AABBFCA3B0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1A6C74E061C48F8B5767FEF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				94352F3C06A84409977E95D6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		23F93327892D45249AEA464F /* controls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C675E3A4814EB3A42C2FD8 /* controls.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3FC67E8822774C80B6112608 /* GLObjectObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2E41424DABB4B5A8949B8F9 /* GLObjectObj.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		421994046F674EC283A28DBA /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B59B13351E124747BFD0F23C /* camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4B67C0D8BB514D2AAF672922 /* main_model_loader_example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 543655F81DDF487BBD06C2D0 /* main_model_loader_example.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		57BF28171535449792CE3ED1 /* Sphere3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F21D580BB46E4A6DBE163BD3 /* Sphere3D.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA5B64AA7F1541FD9AF38DF2 /* GLSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B121F56E2F94908BEC7915B /* GLSphere.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CD019E49BD75456AAC399487 /* GLAppearance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B96C8880DA8944049E361F53 /* GLAppearance.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DE99C79A94864CC69062BB1B /* GLObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C8FF3DEAFA6455091B6AC49 /* GLObject.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DEB44F6DA95449A3A2332E96 /* HCI557Common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0112E040F7FA4AFFA86401E9 /* HCI557Common.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		E491DB3513D1419DA5B3963C /* CoordSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BA397681A3C469797CA13CF /* CoordSystem.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EF5C43D432034E07B831CC1A /* Shaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF8C6676292A4E828BFFCC10 /* Shaders.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FACD1A5CBDB74BA7B554BB86 /* GLObjectObjFl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81A97065F4934CCC8D3638D5 /* GLObjectObjFl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65238ACAD3B346B58EE0518F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FCF8829C6B4E04AEEFACEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC63765F87E44AABBFCA3B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		A2E70D16BCE64E0E9F24B0DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FCF8829C6B4E04AEEFACEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3296CB34714308ADC9AAE0;
+			remoteInfo = HCI557_ObjLoader;
+		};
+		DA569FF6F7FD492792314448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FCF8829C6B4E04AEEFACEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC63765F87E44AABBFCA3B0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0112E040F7FA4AFFA86401E9 /* HCI557Common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HCI557Common.cpp; path = ../gl_common/HCI557Common.cpp; sourceTree = SOURCE_ROOT; };
+		0E94FCB29CC446A78CC2D000 /* GLAppearanceBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLAppearanceBase.h; path = ../gl_common/GLAppearanceBase.h; sourceTree = SOURCE_ROOT; };
+		11063EC5F24343EF8467A9DD /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		14762E62404749688F921087 /* GLObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObject.h; path = ../gl_common/GLObject.h; sourceTree = SOURCE_ROOT; };
+		207A56399BB348A49A8DFBD0 /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = ../gl_common/camera.h; sourceTree = SOURCE_ROOT; };
+		27D9E15A59924DE3ACFCC510 /* Sphere3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Sphere3D.h; path = ../gl_common/Sphere3D.h; sourceTree = SOURCE_ROOT; };
+		3B121F56E2F94908BEC7915B /* GLSphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLSphere.cpp; path = ../gl_common/GLSphere.cpp; sourceTree = SOURCE_ROOT; };
+		433EB2051C18A35A005CEC1B /* multi_vertex_lights_ext.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = multi_vertex_lights_ext.fs; path = ../data/shaders/multi_vertex_lights_ext.fs; sourceTree = "<group>"; };
+		433EB2061C18A35A005CEC1B /* multi_vertex_lights_ext.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = multi_vertex_lights_ext.vs; path = ../data/shaders/multi_vertex_lights_ext.vs; sourceTree = "<group>"; };
+		47C675E3A4814EB3A42C2FD8 /* controls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = controls.cpp; path = ../gl_common/controls.cpp; sourceTree = SOURCE_ROOT; };
+		543655F81DDF487BBD06C2D0 /* main_model_loader_example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main_model_loader_example.cpp; sourceTree = SOURCE_ROOT; };
+		5A491CA7184640D48BC772F8 /* controls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = controls.h; path = ../gl_common/controls.h; sourceTree = SOURCE_ROOT; };
+		6792E645243F46589D331AD0 /* GLObjectObj.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObjectObj.h; path = ../gl_common/GLObjectObj.h; sourceTree = SOURCE_ROOT; };
+		6BA397681A3C469797CA13CF /* CoordSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CoordSystem.cpp; path = ../gl_common/CoordSystem.cpp; sourceTree = SOURCE_ROOT; };
+		7170055CE0D04A8F8B65FC86 /* CoordSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CoordSystem.h; path = ../gl_common/CoordSystem.h; sourceTree = SOURCE_ROOT; };
+		739A583DD9FA49B2BE6409E0 /* Shaders.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Shaders.h; path = ../gl_common/Shaders.h; sourceTree = SOURCE_ROOT; };
+		81A97065F4934CCC8D3638D5 /* GLObjectObjFl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObjectObjFl.cpp; path = ../gl_common/GLObjectObjFl.cpp; sourceTree = SOURCE_ROOT; };
+		971208F475D14770B871C4E7 /* GLObjectObjFl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLObjectObjFl.h; path = ../gl_common/GLObjectObjFl.h; sourceTree = SOURCE_ROOT; };
+		99EFF77D68EE4AC4B7F2E48F /* HCI557Datatypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Datatypes.h; path = ../gl_common/HCI557Datatypes.h; sourceTree = SOURCE_ROOT; };
+		9C8FF3DEAFA6455091B6AC49 /* GLObject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObject.cpp; path = ../gl_common/GLObject.cpp; sourceTree = SOURCE_ROOT; };
+		9E6CD1FF19044FF9A1739ED8 /* GLAppearance.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLAppearance.h; path = ../gl_common/GLAppearance.h; sourceTree = SOURCE_ROOT; };
+		A6FE0FF6A1F44802A6076DD8 /* HCI557Common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HCI557Common.h; path = ../gl_common/HCI557Common.h; sourceTree = SOURCE_ROOT; };
+		B310E0DA3C054CDC9E4BC2E5 /* GLSphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GLSphere.h; path = ../gl_common/GLSphere.h; sourceTree = SOURCE_ROOT; };
+		B59B13351E124747BFD0F23C /* camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = ../gl_common/camera.cpp; sourceTree = SOURCE_ROOT; };
+		B96C8880DA8944049E361F53 /* GLAppearance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLAppearance.cpp; path = ../gl_common/GLAppearance.cpp; sourceTree = SOURCE_ROOT; };
+		D2E41424DABB4B5A8949B8F9 /* GLObjectObj.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLObjectObj.cpp; path = ../gl_common/GLObjectObj.cpp; sourceTree = SOURCE_ROOT; };
+		EBFACE9337B640A29A568141 /* HCI557_ObjLoader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HCI557_ObjLoader; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8C6676292A4E828BFFCC10 /* Shaders.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shaders.cpp; path = ../gl_common/Shaders.cpp; sourceTree = SOURCE_ROOT; };
+		F21D580BB46E4A6DBE163BD3 /* Sphere3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sphere3D.cpp; path = ../gl_common/Sphere3D.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E92DE30337B4D86BA67A657 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4D3660943A6F4A61B54D037F = {
+			isa = PBXGroup;
+			children = (
+				85F7B8870248471EA0DC8078 /* Sources */,
+				E5095076FEFC411999EB2BFF /* Resources */,
+				DEA1AA85B0834C2CA2C431ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85F7B8870248471EA0DC8078 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FD8FFCDEF6A4401F84C5C766 /* ALL_BUILD */,
+				9245F7F8CEE448D29E621B2D /* HCI557_ObjLoader */,
+				9B3FAB5B6D2F4EA9AB2B84D4 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		9245F7F8CEE448D29E621B2D /* HCI557_ObjLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FDDEA8C5F8BA4CB4B2C2F8E5 /* Source Files */,
+				C67E80F4D7804C07BC638186 /* Header Files */,
+			);
+			name = HCI557_ObjLoader;
+			sourceTree = "<group>";
+		};
+		9B3FAB5B6D2F4EA9AB2B84D4 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				EF3E1AA2AFEB41C382926D01 /* CMake Rules */,
+				11063EC5F24343EF8467A9DD /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		C67E80F4D7804C07BC638186 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7170055CE0D04A8F8B65FC86 /* CoordSystem.h */,
+				9E6CD1FF19044FF9A1739ED8 /* GLAppearance.h */,
+				0E94FCB29CC446A78CC2D000 /* GLAppearanceBase.h */,
+				14762E62404749688F921087 /* GLObject.h */,
+				6792E645243F46589D331AD0 /* GLObjectObj.h */,
+				971208F475D14770B871C4E7 /* GLObjectObjFl.h */,
+				B310E0DA3C054CDC9E4BC2E5 /* GLSphere.h */,
+				A6FE0FF6A1F44802A6076DD8 /* HCI557Common.h */,
+				99EFF77D68EE4AC4B7F2E48F /* HCI557Datatypes.h */,
+				739A583DD9FA49B2BE6409E0 /* Shaders.h */,
+				27D9E15A59924DE3ACFCC510 /* Sphere3D.h */,
+				207A56399BB348A49A8DFBD0 /* camera.h */,
+				5A491CA7184640D48BC772F8 /* controls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DEA1AA85B0834C2CA2C431ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBFACE9337B640A29A568141 /* HCI557_ObjLoader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5095076FEFC411999EB2BFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				433EB2051C18A35A005CEC1B /* multi_vertex_lights_ext.fs */,
+				433EB2061C18A35A005CEC1B /* multi_vertex_lights_ext.vs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF3E1AA2AFEB41C382926D01 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FD8FFCDEF6A4401F84C5C766 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0E92DE30337B4D86BA67A657 /* CMake Rules */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FDDEA8C5F8BA4CB4B2C2F8E5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				543655F81DDF487BBD06C2D0 /* main_model_loader_example.cpp */,
+				6BA397681A3C469797CA13CF /* CoordSystem.cpp */,
+				B96C8880DA8944049E361F53 /* GLAppearance.cpp */,
+				9C8FF3DEAFA6455091B6AC49 /* GLObject.cpp */,
+				D2E41424DABB4B5A8949B8F9 /* GLObjectObj.cpp */,
+				81A97065F4934CCC8D3638D5 /* GLObjectObjFl.cpp */,
+				3B121F56E2F94908BEC7915B /* GLSphere.cpp */,
+				0112E040F7FA4AFFA86401E9 /* HCI557Common.cpp */,
+				EF8C6676292A4E828BFFCC10 /* Shaders.cpp */,
+				F21D580BB46E4A6DBE163BD3 /* Sphere3D.cpp */,
+				B59B13351E124747BFD0F23C /* camera.cpp */,
+				47C675E3A4814EB3A42C2FD8 /* controls.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3296CB34714308ADC9AAE0 /* HCI557_ObjLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773773FAA2DC4C9FA347DC8B /* Build configuration list for PBXNativeTarget "HCI557_ObjLoader" */;
+			buildPhases = (
+				DB9DA5AF2F404E97B544DAB4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14473DBADC1B4FAFBED5857F /* PBXTargetDependency */,
+			);
+			name = HCI557_ObjLoader;
+			productName = HCI557_ObjLoader;
+			productReference = EBFACE9337B640A29A568141 /* HCI557_ObjLoader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FCF8829C6B4E04AEEFACEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = 7076DB7685854B819A5128E2 /* Build configuration list for PBXProject "HCI557_ObjLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D3660943A6F4A61B54D037F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FC8D5A70F24AA9A2F995CF /* ALL_BUILD */,
+				EA3296CB34714308ADC9AAE0 /* HCI557_ObjLoader */,
+				EEC63765F87E44AABBFCA3B0 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54D9ABAB888A4806A5D8ABBE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/adamkohl/Documents/Graduate_School/ME557/Final/code -f /Users/adamkohl/Documents/Graduate_School/ME557/Final/code/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		94352F3C06A84409977E95D6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/adamkohl/Documents/Graduate_School/ME557/Final/code -f /Users/adamkohl/Documents/Graduate_School/ME557/Final/code/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9DA5AF2F404E97B544DAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B67C0D8BB514D2AAF672922 /* main_model_loader_example.cpp in Sources */,
+				E491DB3513D1419DA5B3963C /* CoordSystem.cpp in Sources */,
+				CD019E49BD75456AAC399487 /* GLAppearance.cpp in Sources */,
+				DE99C79A94864CC69062BB1B /* GLObject.cpp in Sources */,
+				3FC67E8822774C80B6112608 /* GLObjectObj.cpp in Sources */,
+				FACD1A5CBDB74BA7B554BB86 /* GLObjectObjFl.cpp in Sources */,
+				CA5B64AA7F1541FD9AF38DF2 /* GLSphere.cpp in Sources */,
+				DEB44F6DA95449A3A2332E96 /* HCI557Common.cpp in Sources */,
+				EF5C43D432034E07B831CC1A /* Shaders.cpp in Sources */,
+				57BF28171535449792CE3ED1 /* Sphere3D.cpp in Sources */,
+				421994046F674EC283A28DBA /* camera.cpp in Sources */,
+				23F93327892D45249AEA464F /* controls.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14473DBADC1B4FAFBED5857F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC63765F87E44AABBFCA3B0 /* ZERO_CHECK */;
+			targetProxy = 65238ACAD3B346B58EE0518F /* PBXContainerItemProxy */;
+		};
+		AA7B109A13AB42E0AE563656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3296CB34714308ADC9AAE0 /* HCI557_ObjLoader */;
+			targetProxy = A2E70D16BCE64E0E9F24B0DF /* PBXContainerItemProxy */;
+		};
+		B6006468E44C44E0ACAC6B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC63765F87E44AABBFCA3B0 /* ZERO_CHECK */;
+			targetProxy = DA569FF6F7FD492792314448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097174E50ADF4D648B19DBCD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		215ECEE52B1B40EEB0B184F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code/build;
+			};
+			name = Debug;
+		};
+		3010D33206A64D7D805CFC71 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code/build;
+			};
+			name = MinSizeRel;
+		};
+		34F9B1E5CBC44DBF947E0F8B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		443CD291818C4163AB58FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HCI557_ObjLoader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		64F9D98BF44B43F69997484A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		6736B4955E0241B3944A1696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		72AFB5DDC0C940FFB2630EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		74CABCD3F88843869BD7734E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code/build;
+			};
+			name = Release;
+		};
+		79F0E3206A2346BA864AF43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HCI557_ObjLoader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		83C92FF16013482DA49FB4E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code/build;
+			};
+			name = RelWithDebInfo;
+		};
+		AD6D0135718F4FD8AD9B9AE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D2ABBE39B4FF43D08236923F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HCI557_ObjLoader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D97FB70F253B49A88303249B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		E0B7EAC14C0742E2A5BA2570 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libGLEW.dylib,
+					/usr/local/lib/libglfw3.dylib,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HCI557_ObjLoader;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		F7B367BD9C614FF79C760057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/adamkohl/Documents/Graduate_School/ME557/Final/code/../gl_common,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adamkohl/Documents/Graduate_School/ME557/Final/code;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7076DB7685854B819A5128E2 /* Build configuration list for PBXProject "HCI557_ObjLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215ECEE52B1B40EEB0B184F8 /* Debug */,
+				74CABCD3F88843869BD7734E /* Release */,
+				3010D33206A64D7D805CFC71 /* MinSizeRel */,
+				83C92FF16013482DA49FB4E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		773773FAA2DC4C9FA347DC8B /* Build configuration list for PBXNativeTarget "HCI557_ObjLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F0E3206A2346BA864AF43D /* Debug */,
+				443CD291818C4163AB58FA1B /* Release */,
+				E0B7EAC14C0742E2A5BA2570 /* MinSizeRel */,
+				D2ABBE39B4FF43D08236923F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1A6C74E061C48F8B5767FEF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B367BD9C614FF79C760057 /* Debug */,
+				6736B4955E0241B3944A1696 /* Release */,
+				AD6D0135718F4FD8AD9B9AE2 /* MinSizeRel */,
+				D97FB70F253B49A88303249B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEB83F2F322B4BB089B3C203 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AFB5DDC0C940FFB2630EBC /* Debug */,
+				64F9D98BF44B43F69997484A /* Release */,
+				097174E50ADF4D648B19DBCD /* MinSizeRel */,
+				34F9B1E5CBC44DBF947E0F8B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6FCF8829C6B4E04AEEFACEC /* Project object */;
+}
